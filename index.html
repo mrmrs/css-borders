@@ -10,7 +10,46 @@
     <meta name="description" content="A small mobile-first css module.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="borders.css">
+    <style>
+       html { font-family: avenir, helvetica, arial, sans-serif; }
+       body, html { margin: 0; padding: 0; }
+       section, article, div, main { box-sizing: border-box; }
+       .example { padding: 1em 2em; margin-bottom: 2em; max-width: 24em; font-size: 14px; }
+       code { display: block; }
+       section { padding-left: 1em; padding-right: 1em; padding-top: 2em; padding-bottom: 2em; border-bottom: 8px solid #eee; float: left; width: 100%; }
+       main { overflow: hidden; }
+       h1 { padding: .5em; font-weight: 400; text-transform: uppercase; }
+    </style>
   </head>
   <body>
-</body>
+<h1>CSS Borders</h1>
+<main>  
+<section>
+  <div class="example ba" ><code>.ba</code>border all sides</div>
+  <div class="example bt" ><code>.bt</code>border top</div>
+  <div class="example br" ><code>.br</code>border right</div>
+  <div class="example bb" ><code>.bb</code>border bottom</div>
+  <div class="example bl" ><code>.bl</code> border left</div>
+</section>
+<section>
+  <div class="example ba-ns"><code>.ba-ns</code> border on all sides for breakpoints larger than mobile</div>
+  <div class="example br-ns"><code>.br-ns</code> border on right for breakpoints larger than mobile</div>
+  <div class="example bb-ns"><code>.bb-ns</code> border on bottom for breakpoints larger than mobile</div>
+  <div class="example bl-ns"><code>.bl-ns</code> border on left side for breakpoints larger than mobile</div>
+</section>
+<section>
+  <div class="example ba-m"><code>.ba-m</code> border on all sides for medium sized breakpoint</div>
+  <div class="example bt-m"><code>.bt-m</code> border on top side for medium sized breakpoint</div>
+  <div class="example bb-m"><code>.bb-m</code> border on bottom side for medium sized breakpoint</div>
+  <div class="example bl-m"><code>.bl-m</code> border on left side for medium sized breakpoint</div>
+</section>
+<section>
+  <div class="example ba-l"><code>.ba-l</code> border on all sides for large sized breakpoint</div>
+  <div class="example bt-l"><code>.bt-l</code> border on top side for large sized breakpoint</div>
+  <div class="example br-l"><code>.br-l</code> border on right side for large size breakpoint</div>
+  <div class="example bl-l"><code>.bl-l</code> border on left side for large breakpoint</div>
+</section>
+</main>
+
+  </body>
 </html>
