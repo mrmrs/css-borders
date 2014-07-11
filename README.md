@@ -25,7 +25,7 @@ or download the css on github and include in your project.
   .bb { border-bottom-style: solid;     border-bottom-width: 1px; }
   .bl { border-left-style: solid;       border-left-width: 1px; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ba-ns { border-style: solid;         border-width: 1px; }
   .bt-ns { border-left-style: solid;    border-left-width: 1px; }
   .br-ns { border-right-style: solid;   border-right-width: 1px; }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .bl-ns { border-left-style: solid;    border-left-width: 1px; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ba-m { border-style: solid;          border-width: 1px; }
   .bt-m { border-left-style: solid;     border-left-width: 1px; }
   .br-m { border-right-style: solid;    border-right-width: 1px; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .bl-m { border-left-style: solid;     border-left-width: 1px; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ba-l { border-style: solid;          border-width: 1px; }
   .bt-l { border-left-style: solid;     border-left-width: 1px; }
   .br-l { border-right-style: solid;    border-right-width: 1px; }
