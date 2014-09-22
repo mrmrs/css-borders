@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-borders)
 ## File Size
 
 1.4K borders.css
-1.1K borders.min.css
+1.1K borders.min.css 
+207B minified and gzipped
 
 ## The Code
 ```
