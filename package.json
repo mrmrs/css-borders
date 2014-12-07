@@ -1,7 +1,7 @@
 {
   "name": "css-borders",
   "style": "borders.css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "http://mrmrs.io/css-borders",
   "description": "Css module of single purpose classes for borders",
   "keywords": [
