@@ -9,11 +9,11 @@
   .bl { border-left-style: solid;       border-left-width: 1px; }
 
 @media screen and (min-width: 48em) {
-  .ba-ns { border-style: solid;         border-width: 1px; }
-  .bt-ns { border-top-style: solid;     border-top-width: 1px; }
-  .br-ns { border-right-style: solid;   border-right-width: 1px; }
-  .bb-ns { border-bottom-style: solid;  border-bottom-width: 1px; }
-  .bl-ns { border-left-style: solid;    border-left-width: 1px; }
+  .ba-s { border-style: solid;         border-width: 1px; }
+  .bt-s { border-top-style: solid;     border-top-width: 1px; }
+  .br-s { border-right-style: solid;   border-right-width: 1px; }
+  .bb-s { border-bottom-style: solid;  border-bottom-width: 1px; }
+  .bl-s { border-left-style: solid;    border-left-width: 1px; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
