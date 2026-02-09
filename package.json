@@ -1,38 +1,44 @@
 {
   "name": "css-borders",
-  "style": "borders.css",
-  "version": "1.0.8",
-  "homepage": "http://mrmrs.io/css-borders",
-  "description": "Css module of single purpose classes for borders",
+  "version": "2.0.0",
+  "description": "Functional CSS for borders",
+  "style": "dist/borders.css",
+  "main": "dist/borders.css",
+  "exports": {
+    ".": "./dist/borders.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "borders"
+    "borders",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-borders": {
+  "homepage": "https://github.com/mrmrs/css-borders",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-borders.git"
+    "url": "https://github.com/mrmrs/css-borders.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-borders/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-borders/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
